@@ -35,14 +35,6 @@ Mean Squared Error (MSE)
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 
-Results:
-Model	MSE	MAE	RMSE
-ARIMA(5,2,2)	83.16	5.50	9.12
-LSTM	83.24	5.49	9.12
-SARIMA(1,2,1)(1,0,1,7)	83.36	5.51	9.13
-Naive Forecast	115.74	7.76	10.76
-Facebook Prophet	32046.52	178.94	179.02
-
 Observation:
 ARIMA and LSTM models performed best. Prophet did not perform well for high-frequency stock prices.
 
